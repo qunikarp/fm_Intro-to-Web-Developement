@@ -60,7 +60,7 @@ ul {
     width: 100%;
 }
 li {
-    padding-left: 20px;
+    padding: 30px;
     text-decoration: none;
     list-style-type: none;
 }
