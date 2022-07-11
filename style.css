@@ -41,25 +41,28 @@ body {
     padding-bottom: 10px;
     padding: 30px 0;
 }
-.list{
-    display: grid;   
-}
+
 .article-img {
     width: 100%;
     padding: 7px; 
     margin-bottom: 10px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
 ul {
     text-decoration: none;
     list-style-type: none;
     display: grid;
     grid-template-rows: repeat(5, 1fr);
+    width: 100%;
 }
 li {
     padding-left: 20px;
     text-decoration: none;
     list-style-type: none;
-    align-items: center;
 }
 .section-link{
     text-decoration: none;
